@@ -176,6 +176,10 @@ user_agent_parsers:
     family_replacement: 'Sogou Explorer'
 
   # Baidu Browsers (desktop spoofs chrome & IE, explorer is mobile)
+  - regex: '(BIDUBrowser)/(\d+)\.(\w+)'
+    family_replacement: 'Baidu Browser'
+  - regex: '(bidubrowser)/(\d+)\.(\d+)'
+    family_replacement: 'Baidu Browser'
   - regex: '(baidubrowser)[/\s](\d+)'
     family_replacement: 'Baidu Browser'
   - regex: '(FlyFlow)/(\d+)\.(\d+)'
